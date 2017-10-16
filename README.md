@@ -34,7 +34,7 @@ drop table log;
 drop table articles;
 drop table authors;
 ```
-Then in the shell, to import the data:
+Then in the shell, to import the data: [Download newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
 ```psql -d news -f newsdata.sql```
 
